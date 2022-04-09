@@ -1,9 +1,9 @@
 # World_Weather_Analysis
 ## Overview of Analysis:
 Challenged requested three deliverables:
-- Obtain current weather infomration for a list of randomly generated cities. 
+- Obtain current weather information for a list of randomly generated cities. 
 - Create a travel destination map that displays a hotel name and the current weather for all the cities on your list.
-- Create an Itenerary with a travel map for a circut of four cities from your cities list. 
+- Create an Itinerary with a travel map for a circuit of four cities from your cities list. 
 
 ## Resources
 - API used: OpenWeatherMap API
@@ -13,7 +13,7 @@ Challenged requested three deliverables:
 ## Summary
 
 Deliverable 1:
-- Random list of 2000 latitude and logitude pairs generated using np.random
+- Random list of 2000 latitude and longitude pairs generated using np.random
 - Library citipy used to obtain the closest city to each lat and lng pair
 - OpenWeatherMap API used to obtain weather info for each city. See table below:
 
@@ -43,3 +43,4 @@ Deliverable 3:
 <p align="center">
   <img src="https://github.com/justinkirk8/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.png" width="1000" />
 </p>
+
